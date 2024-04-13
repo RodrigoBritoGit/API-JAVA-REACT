@@ -1,60 +1,17 @@
 function Formulario({
-  botao,
-  eventoTeclado,
-  cadastrar,
-  obj,
-  cancelar,
-  remover,
-  alterar,
+  pesquisaPorNome,
 }) {
+  const handlePesquisa = (e) => {
+    pesquisaPorNome(e.target.value); // Chamando a função de pesquisa por nome ao digitar no campo de pesquisa
+  };
   return (
     <form>
-      <input
+       <input
         type="text"
-        value={obj.nome}
-        onChange={eventoTeclado}
-        name="nome"
-        placeholder="Nome"
+        onChange={handlePesquisa} // Adicionando o evento para pesquisa
+        placeholder="Pesquisar por nome"
         className="form-control"
       />
-      <input
-        type="text"
-        value={obj.marca}
-        onChange={eventoTeclado}
-        name="marca"
-        placeholder="Marca"
-        className="form-control"
-      />
-
-      {botao ? (
-        <input
-          type="button"
-          value="Cadastrar"
-          onClick={cadastrar}
-          className="btn btn-primary"
-        />
-      ) : (
-        <div>
-          <input
-            onClick={alterar}
-            type="button"
-            value="Alterar"
-            className="btn btn-warning"
-          />
-          <input
-            onClick={remover}
-            type="button"
-            value="Remover"
-            className="btn btn-danger"
-          />
-          <input
-            onClick={cancelar}
-            type="button"
-            value="Cancelar"
-            className="btn btn-secondary"
-          />
-        </div>
-      )}
     </form>
   );
 }

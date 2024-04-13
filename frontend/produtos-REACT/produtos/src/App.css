@@ -4,6 +4,12 @@ form {
   text-align: center;
 }
 
+.table {
+  width: 900px;
+  margin: 30px auto;
+  text-align: center;
+}
+
 form input {
   margin-bottom: 15px;
 }
@@ -13,3 +19,137 @@ form input[type='button']{
   margin-top: 25px;
   text-align: center;
 }
+
+.form-control {
+  width: 470px;
+}
+#botao-modal-cadastrar{
+  text-align: left;
+}
+/* Adiciona animação de entrada do modal */
+@keyframes slideIn {
+  from {
+    transform: translateY(100%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+/* Estilos para o modal */
+.modal-content {
+  animation: slideIn 0.5s forwards; /* Aplica a animação ao conteúdo do modal */
+}
+
+
+#input-modal-cadastrar{
+  width: 470px;
+}
+
+.modal-cadastrar {
+  color: black;
+  text-align: right;
+  width: 1010px;
+}
+
+.modal-cadastrar button {
+  text-align: center;
+  width: 85px;
+}
+
+/* Estilos para o modal */
+.modal-content {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adiciona sombra */
+  border-radius: 10px; /* Arredonda os cantos */
+}
+
+/* Estilos para o cabeçalho do modal */
+.modal-header {
+  background-color: #f8f9fa; /* Cor de fundo */
+  border-bottom: 1px solid #dee2e6; /* Adiciona borda na parte inferior */
+  border-top-left-radius: 10px; /* Arredonda os cantos superiores esquerdos */
+  border-top-right-radius: 10px; /* Arredonda os cantos superiores direitos */
+}
+
+/* Estilos para o rodapé do modal */
+.modal-footer {
+  background-color: #f8f9fa; /* Cor de fundo */
+  border-top: 1px solid #dee2e6; /* Adiciona borda na parte superior */
+  border-bottom-left-radius: 10px; /* Arredonda os cantos inferiores esquerdos */
+  border-bottom-right-radius: 10px; /* Arredonda os cantos inferiores direitos */
+}
+
+/* Estilos para os botões do modal */
+.btn-primary {
+  background-color: #007bff; /* Cor de fundo do botão primário */
+  border-color: #007bff; /* Cor da borda do botão primário */
+}
+
+.btn-secondary {
+  background-color: #6c757d; /* Cor de fundo do botão secundário */
+  border-color: #6c757d; /* Cor da borda do botão secundário */
+  color: #fff; /* Cor do texto do botão secundário */
+}
+
+/* Adiciona animações de transição para suavizar a abertura e o fechamento do modal */
+.modal.fade.show {
+  transition: opacity 0.3s, transform 0.3s;
+}
+
+/* Adiciona margem ao botão de fechar */
+.close {
+  margin-top: -1rem;
+  margin-right: -1rem;
+}
+
+#paginacao {
+  text-align: center;
+  width: 1250px; /* Ajuste a largura conforme necessário */
+}
+
+#paginacao button {
+  font-size: 12px; /* Tamanho de fonte menor */
+  margin: 0 3px; /* Adiciona um pequeno espaçamento entre os botões */
+}
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 150px;
+  background-color: #333;
+  padding-top: 20px;
+}
+
+.sidebar-header {
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
+
+.sidebar ul.components {
+  padding: 20px 0;
+}
+
+.sidebar ul.components li {
+  padding: 30px;
+  border-bottom: 1px solid #444;
+}
+
+.sidebar ul.components li:last-child {
+  border-bottom: none;
+}
+
+.sidebar ul.components li a {
+  color: white;
+  text-decoration: none;
+}
+
+.sidebar ul.components li a:hover {
+  color: #ddd;
+}
+
+
+
+
