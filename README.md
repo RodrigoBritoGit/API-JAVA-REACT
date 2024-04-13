@@ -32,7 +32,7 @@ Após iniciar tanto o backend quanto o frontend, você pode acessar a aplicaçã
 
 # Funcionalidades
 
-Listar Produtos: Exibe uma lista de todos os produtos cadastrados.
-Adicionar Produto: Permite adicionar um novo produto ao sistema.
-Editar Produto: Permite editar as informações de um produto existente.
-Remover Produto: Permite excluir um produto do sistema.
+1. Listar Produtos: Exibe uma lista de todos os produtos cadastrados.
+2. Adicionar Produto: Permite adicionar um novo produto ao sistema.
+3. Editar Produto: Permite editar as informações de um produto existente.
+4. Remover Produto: Permite excluir um produto do sistema.
