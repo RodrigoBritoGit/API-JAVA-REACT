@@ -1,13 +1,16 @@
 # Sistema de Gerenciamento de Produtos
+
 Este é um sistema de gerenciamento de produtos que consiste em uma API backend desenvolvida em Java Spring Boot e um frontend em React que consome essa API.
 
 # Instalação
 ## Requisitos Prévios
-Java JDK 11 ou superior instalado
-Node.js e npm instalados
-Git instalado
+
+1. Java JDK 11 ou superior instalado
+2. Node.js e npm instalados
+3. Git instalado
 
 # Backend (API)
+
 1. Clone este repositório:
    git clone https://github.com/seu-usuario/sistema-produtos.git
 2. Navegue até o diretório do backend:
