@@ -12,7 +12,7 @@ Este é um sistema de gerenciamento de produtos que consiste em uma API backend 
 # Backend (API)
 
 1. Clone este repositório:
-   git clone https://github.com/seu-usuario/sistema-produtos.git
+   git clone https://github.com/RodrigoBritoGit/API-JAVA-REACT.git
 2. Navegue até o diretório do backend:
    cd {caminho_diretorio}
 3. Execute a aplicação Spring Boot:
